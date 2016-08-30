@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Punto de Venta</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="icon" href="imgs/cangre.ico">
+</head>
+
+<body>
+<header>
+	<div class="container-fluid">
+	<div class="main row">
+		<div class="col-md-6">
+			<img src="imgs/cangres.png" height="480" width="590">
+		</div>
+		<div class="col-md-6">
+			<center><font face="arial" size="15">
+			<br>
+			<br>
+			PUNTO DE VENTA
+			</font></center>
+		</div>
+	</div>
+	</div>
+</header>
+
+<section>
+	<div class="container-fluid">
+	<div class="color row">
+	<br>
+	<br>
+		<div class="aside col-md-8">
+			<h2 align="center">Solo personal autorizado puede ingresar al Sistema</h2>
+		</div>
+		<div class="col-md-4">
+		<br>
+		<center> <a class="btn btn-lg btn-block btn-success" data-toggle="modal" href='#modal-id'>Ingresar al Sistema</a> </center>
+			<div class="modal fade" id="modal-id">
+			<div class="modal-dialog">
+			<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Personal Autorizado</h4>
+			</div>
+			<div class="modal-body">
+				<div class="container-fluid">
+					<div class="colo row">
+						<form action="" class="">
+							<div class="col-md-2">
+								<label for="usuario">Usuario:</label>
+							</div>
+							<div class="col-md-4">
+								<input class="form-control" id="usuario" type="text" placeholder="Usuario">
+							</div>
+							<div class="col-md-2">
+								<label for="contraseña">Contraseña:</label>
+							</div>
+							<div class="col-md-4">
+								<input class="form-control" id="contraseña" type="password" placeholder="Contraseña">
+							</div>
+							</div>
+						</form>
+					</div>		
+				</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+				<button type="button" class="btn btn-info" onclick="seguridad();" data-dismiss="modal">Ingresar al Sistema</button>
+			</div>
+			</div>
+			</div>
+			</div>
+			<br> <br> <br>
+		</div>
+	</div>
+	</div>
+</section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h4 align="center">(c) Derechos Reservados</h4>
+				</div>
+			</div>
+		</div>	
+	</footer>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+</body>
+ </html>
